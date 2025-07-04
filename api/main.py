@@ -7,11 +7,8 @@ import tensorflow as tf
 app = FastAPI()
 
 # ✅ Load the model saved in Keras format (.keras)
-
-MODEL_PATH = "api/potato_disease_model.h5"
+MODEL_PATH = "api/potato_disease_model.keras"
 MODEL = tf.keras.models.load_model(MODEL_PATH)
-
-
 
 # ✅ Class names (must match training order)
 CLASS_NAMES = ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy']
