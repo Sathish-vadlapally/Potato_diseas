@@ -8,8 +8,9 @@ app = FastAPI()
 
 # ✅ Load the model saved in Keras format (.keras)
 
-MODEL_PATH = "api/potato_disease_model.keras"
+MODEL_PATH = "potato_disease_model.h5"
 MODEL = tf.keras.models.load_model(MODEL_PATH)
+
 
 
 # ✅ Class names (must match training order)
