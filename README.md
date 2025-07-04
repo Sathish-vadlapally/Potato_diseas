@@ -4,7 +4,7 @@ This is a Machine Learning API built with FastAPI that predicts potato diseases 
 
 ## 🧠 Model Info
 
-- Model used: TensorFlow/Keras model (`1.keras`)
+- Model used: TensorFlow/Keras model (`potato_disease_model.keras`)
 - Trained on: Potato leaf disease dataset
 - Output: Returns the class of disease (Early Blight, Late Blight, Healthy)
 
@@ -15,12 +15,9 @@ Potato_diseas/
 ├── api/
 │   ├── main.py
 │   ├── requirements.txt
+│   ├── potato_disease_model.keras
 │   └── __pycache__/
-├── Potato_diseas/
-│   └── saved_model/
-│       ├── 1.keras
-│       ├── 2.keras
-│       └── 3.keras
+├── training.ipynb
 ├── README.md
 ```
 
